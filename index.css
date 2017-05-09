@@ -1,0 +1,28 @@
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 20px auto;
+    font-size: 0px;
+}
+ul li{
+    display: inline-block;
+    min-width: 100px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 1px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 50px;
+    color: #000;
+    border-radius: 4px;
+    transition: all 0.3s linear 0s;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+}
+
+ul li:hover{
+    opacity: 0.8;
+}
